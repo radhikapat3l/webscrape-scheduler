@@ -1,6 +1,6 @@
 name: Daily Price Scrape
 
-on:
+"on":
   workflow_dispatch:
   schedule:
     - cron: "0 23 * * *"   # daily at 23:00 UTC
