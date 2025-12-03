@@ -33,4 +33,3 @@ jobs:
           git add data/scrape_log.csv || true
           git commit -m "Update scrape log" || echo "No changes to commit"
           git push
-
